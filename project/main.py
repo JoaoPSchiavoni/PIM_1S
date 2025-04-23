@@ -27,6 +27,6 @@ while True:
         sleep(1.5)
         os.system('clear')
 
-#criar classe usuario
+
         
        
