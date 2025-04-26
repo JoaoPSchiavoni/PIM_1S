@@ -2,7 +2,7 @@ from utilities import colors
 colors.colors()
 
 def get_user_info():
-    '''get user name'''
+    '''get user name, age'''
     print()
     name = input(colors.white + "Digite seu nome: ")
 
@@ -72,3 +72,4 @@ def user_consentiment(name):
         while opcao not in ['S', 'N']:
             opcao = input("Entrada inválida. Digite 'S' para Sim ou 'N' para Não: ").upper()
         return opcao'''
+
