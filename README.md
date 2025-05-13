@@ -12,10 +12,10 @@
 
 O desenvolvimento do programa em Python visa materializar os conceitos de pensamento lógico computacional, oferecendo uma interação básica com o usuário e introduzindo temas relevantes da TI.
 
-se voce for Iniciar o programa em um computador Linux ou MacOS clique no arquivo main.py e execute-o:
+se voce for Iniciar o programa em um computador Linux ou MacOS clique no arquivo MacOS/Linux e em seguida main.py e execute-o:
 - MacOS/Linux
     main.py
 
-se voce for Iniciar o programa em um computador Windows clique no arquivo main.py e execute-o:
+se voce for Iniciar o programa em um computador Windows clique no arquivo windows e em seguida main.py e execute-o:
 - Windows
     main.py
