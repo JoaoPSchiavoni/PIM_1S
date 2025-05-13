@@ -1,5 +1,4 @@
-import os
-from utilities import colors, users, info, menu
+from utilities import colors, users
 colors.colors()
 
 while True:
@@ -9,24 +8,7 @@ while True:
     users.user_consentiment(name)
     
     print()
-    if users.agreement == 'ACEITO':
-        from time import sleep
-        print()
-        info.text_TI()
-        print()
-        sleep(1)
-        print(colors.white +'\nPseudocódigo : 1\nFluxograma : 2'+ colors.reset_color)
-        print()
-        try:
-            option = int(input(colors.white +'Escolha uma opção: '+ colors.reset_color)) 
-        except TypeError:
-            print(colors.red +'valor digitado invalido!'+ colors.reset_color)
-        print()
-        menu.option_menu(option)
-        menu.request_confirmation()
-        sleep(1.5)
-        os.system('clear')
-
+    
 
         
        
