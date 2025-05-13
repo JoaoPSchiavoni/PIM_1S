@@ -12,7 +12,7 @@ def option_menu():
     print()
     if option == 1:
         print()
-        print(colors.green + "\n--- Pseudocódigo ---")
+        print(colors.green + "\n--- Pseudocódigo ---"+colors.reset_color)
         print("Pseudocódigo (ou Português Estruturado) é uma forma de descrever um algoritmo")
         print("usando uma linguagem simples, que se assemelha à linguagem natural (como o português),")
         print("mas com uma estrutura organizada que facilita a conversão para uma linguagem de programação real.")
