@@ -24,7 +24,9 @@ Antes de executar o programa, instale a biblioteca `colorama` com o seguinte com
 Verifique se o Python e o pip estão instalados no terminal digite:
 
 python --version  # Confirma a versão do Python
+
 pip --version  # Confirma se o pip está instalado
+
 pip install colorama # Instala a biblioteca de cores colorama
 
 se voce for Iniciar o programa em um computador Linux ou MacOS clique no arquivo MacOS/Linux e em seguida main.py e execute-o:
