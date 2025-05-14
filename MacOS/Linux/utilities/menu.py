@@ -12,7 +12,7 @@ def option_menu():
     print()
     if option == 1:
         print()
-        print(colors.green + "\n--- Pseudocódigo ---"+colors.reset_color)
+        print(colors.green + "\n--- Pseudocódigo ---" + colors.reset_color)
         print("Pseudocódigo (ou Português Estruturado) é uma forma de descrever um algoritmo")
         print("usando uma linguagem simples, que se assemelha à linguagem natural (como o português),")
         print("mas com uma estrutura organizada que facilita a conversão para uma linguagem de programação real.")
@@ -24,7 +24,7 @@ def option_menu():
         print("    LER numero2")
         print("    soma = numero1 + numero2")
         print("    ESCREVER soma")
-        print("  FIM"+colors.reset_color)
+        print("  FIM")
         print()
 
     elif option == 2:
@@ -40,7 +40,7 @@ def option_menu():
         print("  - Retângulo: Processo ou instrução.")
         print("  - Losango: Decisão (condição com saídas Sim/Não).")
         print("  - Paralelogramo: Entrada ou Saída de dados.")
-        print("  - Setas: Direção do fluxo."+ colors.reset_color)
+        print("  - Setas: Direção do fluxo.")
         print()
 
 
