@@ -5,7 +5,7 @@ O desenvolvimento do programa em Python visa materializar os conceitos de pensam
 
 ## 📌 Dependências
 Este projeto utiliza a biblioteca **Colorama** para exibir cores no terminal.
-- Python 3.x
+- Python 3.6
 - `colorama`
 
 ## 🛠 Instalação
