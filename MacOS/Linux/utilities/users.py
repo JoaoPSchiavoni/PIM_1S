@@ -6,11 +6,11 @@ def header():
     '''header of the program'''
     import os
     print()
-    text = colors.white + 'PLATAFORMA DE EDUCAÇÃO DIGITAL DA NOSSA ONG!' + colors.reset_color
     os.system('clear')
-    print("==" * 25)
+    text = colors.white + 'PLATAFORMA DE EDUCAÇÃO DIGITAL' + colors.reset_color
+    print(colors.white + "==" * 25 + colors.reset_color)
     print(text)
-    print("==" * 25)
+    print(colors.white + "==" * 25 + colors.reset_color)
 
 def get_user_info():
     '''get user name, age'''
@@ -35,10 +35,10 @@ def get_user_info():
 def welcome(name):
     '''gives welcome to user'''
     print()
-    text = colors.white + f'BEM-VINDO {name} À PLATAFORMA DE EDUCAÇÃO DIGITAL DA NOSSA ONG!' + colors.reset_color
-    print("==" * 40)
-    print(text)
-    print("==" * 40)
+    print(colors.white + '==' * 40 + colors.reset_color)
+    print( colors.green + f'BEM-VINDO {name} À PLATAFORMA DE EDUCAÇÃO DIGITAL DA NOSSA ONG!' + colors.reset_color)
+    print(colors.white + "==" * 40 + colors.reset_color)
+   
 
 def user_consentiment(name):
     '''ask to user if he agree with terms'''
@@ -51,6 +51,7 @@ def user_consentiment(name):
     print(f'estamos comprometidos com a proteção dos seus dados pessoais. Consoante, a {law} (Lei Geral de Proteção de Dados),')
     print('solicitamos sua autorização para tratá-los conforme as condições abaixo.')
     print('1. Dados coletados: Nome, idade e tempo de uso.')
+    print('2. Finalidade: Uso para estatísticas e armazenamento.')
     print('2. Segurança: Seus dados são protegidos contra acessos não autorizados.')
     print('3. Direitos do usuário: Você pode acessar, corrigir ou excluir seus dados a qualquer momento.')
     print('4. Compartilhamento: Seus dados não serão compartilhados com terceiros sem sua autorização.')

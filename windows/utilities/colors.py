@@ -7,5 +7,4 @@ def colors():
     white = Fore.WHITE + Style.BRIGHT
     yellow = Fore.YELLOW + Style.BRIGHT
     reset_color = Style.RESET_ALL
-    orange = Fore.LIGHTRED_EX + Style.BRIGHT
 colors()
