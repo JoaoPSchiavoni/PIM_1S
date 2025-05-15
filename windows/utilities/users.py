@@ -6,7 +6,7 @@ def header():
     '''header of the program'''
     import os
     print()
-    os.system('clear')
+    os.system('cls')
     text = colors.white + 'PLATAFORMA DE EDUCAÇÃO DIGITAL' + colors.reset_color
     print(colors.white + "==" * 25 + colors.reset_color)
     print(text)
