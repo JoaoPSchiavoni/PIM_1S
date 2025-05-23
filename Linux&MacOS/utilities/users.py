@@ -4,7 +4,7 @@ colors.colors()
 
 def header():
     '''header of the program'''
-    import os
+    
     print()
     os.system('clear')
     text = colors.white + 'PLATAFORMA DE EDUCAÇÃO DIGITAL' + colors.reset_color
@@ -52,11 +52,11 @@ def user_consentiment(name):
     print('solicitamos sua autorização para tratá-los conforme as condições abaixo.')
     print('1. Dados coletados: Nome, idade e tempo de uso.')
     print('2. Finalidade: Uso para estatísticas e armazenamento.')
-    print('2. Segurança: Seus dados são protegidos contra acessos não autorizados.')
-    print('3. Direitos do usuário: Você pode acessar, corrigir ou excluir seus dados a qualquer momento.')
-    print('4. Compartilhamento: Seus dados não serão compartilhados com terceiros sem sua autorização.')
-    print('5. Prazo de armazenamento: Seus dados serão mantidos enquanto forem necessários para a finalidade.')
-    print('6. Consentimento: Você pode revogar seu consentimento a qualquer momento.')
+    print('3. Segurança: Seus dados são protegidos contra acessos não autorizados.')
+    print('4. Direitos do usuário: Você pode acessar, corrigir ou excluir seus dados a qualquer momento.')
+    print('5. Compartilhamento: Seus dados não serão compartilhados com terceiros sem sua autorização.')
+    print('6. Prazo de armazenamento: Seus dados serão mantidos enquanto forem necessários para a finalidade.')
+    print('7. Consentimento: Você pode revogar seu consentimento a qualquer momento.')
     print()
     print('Caso concorde, digite "ACEITO". Para mais detalhes, consulte nossa Política de Privacidade.')
     print()
@@ -72,13 +72,14 @@ def user_consentiment(name):
         print()
         if agreement == 'ACEITO':
             from utilities import info, menu
-            import os
             from time import sleep
             print()
             info.text_TI()
             print()
-            sleep(1)
+            
+            os.system('clear')
             menu.option_menu()
+            
             while True:
                 menu.request_confirmation()
                 if menu.continue_option == 'NAO':
@@ -87,7 +88,6 @@ def user_consentiment(name):
                     break
             sleep(1.5)
             os.system('clear')
-
 
 
 

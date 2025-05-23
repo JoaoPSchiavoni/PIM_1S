@@ -8,5 +8,3 @@ while True:
     users.user_consentiment(name)
     
     print()
-    
-    
